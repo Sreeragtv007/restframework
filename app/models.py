@@ -4,6 +4,7 @@ from django.db import models
 
 class Studentdeatils(models.Model):
     name=models.CharField(max_length=50)
+    age=models.TextField(blank=True,null=True)
     place=models.TextField()
     address=models.TextField()
 
